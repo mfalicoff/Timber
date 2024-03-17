@@ -41,19 +41,12 @@ import com.nostra13.universalimageloader.core.ImageLoader;
 
 import java.util.List;
 
-public class PlayingQueueAdapter extends RecyclerView.Adapter<PlayingQueueAdapter.ItemHolder> {
-    private static final String TAG = "PlayingQueueAdapter";
-
+public class PlayingQueueAdapter extends AbstractSongAdapter {
     public int currentlyPlayingPosition;
-    private List<Song> arraylist;
-    private Activity mContext;
-    private String ateKey;
 
     public PlayingQueueAdapter(Activity context, List<Song> arraylist) {
-        this.arraylist = arraylist;
-        this.mContext = context;
+        super(context, arraylist);
         this.currentlyPlayingPosition = MusicPlayer.getQueuePosition();
-        this.ateKey = Helpers.getATEKey(context);
     }
 
     @Override
@@ -63,32 +56,7 @@ public class PlayingQueueAdapter extends RecyclerView.Adapter<PlayingQueueAdapte
         return ml;
     }
 
-    @Override
-    public void onBindViewHolder(ItemHolder itemHolder, int i) {
-        Song localItem = arraylist.get(i);
-
-        itemHolder.title.setText(localItem.title);
-        itemHolder.artist.setText(localItem.artistName);
-
-        if (MusicPlayer.getCurrentAudioId() == localItem.id) {
-            itemHolder.title.setTextColor(Config.accentColor(mContext, ateKey));
-            if (MusicPlayer.isPlaying()) {
-                itemHolder.visualizer.setColor(Config.accentColor(mContext, ateKey));
-                itemHolder.visualizer.setVisibility(View.VISIBLE);
-            } else {
-                itemHolder.visualizer.setVisibility(View.GONE);
-            }
-        } else {
-            itemHolder.title.setTextColor(Config.textColorPrimary(mContext, ateKey));
-            itemHolder.visualizer.setVisibility(View.GONE);
-        }
-        ImageLoader.getInstance().displayImage(TimberUtils.getAlbumArtUri(localItem.albumId).toString(),
-                itemHolder.albumArt, new DisplayImageOptions.Builder().cacheInMemory(true)
-                        .showImageOnLoading(R.drawable.ic_empty_music2).resetViewBeforeLoading(true).build());
-        setOnPopupMenuListener(itemHolder, i);
-    }
-
-    private void setOnPopupMenuListener(ItemHolder itemHolder, final int position) {
+    protected void setOnPopupMenuListener(ItemHolder itemHolder, final int position) {
 
         itemHolder.menu.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -125,11 +93,6 @@ public class PlayingQueueAdapter extends RecyclerView.Adapter<PlayingQueueAdapte
                 menu.show();
             }
         });
-    }
-
-    @Override
-    public int getItemCount() {
-        return (null != arraylist ? arraylist.size() : 0);
     }
 
     public long[] getSongIds() {

@@ -77,3 +77,17 @@ public class BaseSongAdapter<V extends RecyclerView.ViewHolder> extends Recycler
     public void updateDataSet(List<Song> arraylist) {}
 
 }
+
+class PlayConfig {
+    private int startPosition;
+    private TimberUtils.IdType sourceType;
+    private boolean forceShuffle;
+    private Song currentSong;
+
+    public PlayConfig(long[] songList, int startPosition, long sourceId, TimberUtils.IdType sourceType, boolean forceShuffle, Song currentSong) {
+        this.startPosition = startPosition;
+        this.sourceType = sourceType;
+        this.forceShuffle = forceShuffle;
+        this.currentSong = currentSong;
+    }
+}
