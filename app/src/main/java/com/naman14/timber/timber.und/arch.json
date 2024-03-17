@@ -1,0 +1,496 @@
+{
+    "ents": {
+        "@l./MusicPlayer.java": [
+            0
+        ],
+        "@l./MusicService.java": [
+            0
+        ],
+        "@l./TimberApp.java": [
+            0
+        ],
+        "@l./WearBrowserService.java": [
+            0
+        ],
+        "@l./activities/BaseActivity.java": [
+            0
+        ],
+        "@l./activities/BaseThemedActivity.java": [
+            0
+        ],
+        "@l./activities/DonateActivity.java": [
+            0
+        ],
+        "@l./activities/MainActivity.java": [
+            0
+        ],
+        "@l./activities/NowPlayingActivity.java": [
+            0
+        ],
+        "@l./activities/PlaylistDetailActivity.java": [
+            0
+        ],
+        "@l./activities/SearchActivity.java": [
+            0
+        ],
+        "@l./activities/SettingsActivity.java": [
+            0
+        ],
+        "@l./adapters/AlbumAdapter.java": [
+            0
+        ],
+        "@l./adapters/AlbumSongsAdapter.java": [
+            0
+        ],
+        "@l./adapters/ArtistAdapter.java": [
+            0
+        ],
+        "@l./adapters/ArtistAlbumAdapter.java": [
+            0
+        ],
+        "@l./adapters/ArtistSongAdapter.java": [
+            0
+        ],
+        "@l./adapters/BaseQueueAdapter.java": [
+            0
+        ],
+        "@l./adapters/BaseSongAdapter.java": [
+            0
+        ],
+        "@l./adapters/FolderAdapter.java": [
+            0
+        ],
+        "@l./adapters/PlayingQueueAdapter.java": [
+            0
+        ],
+        "@l./adapters/PlaylistAdapter.java": [
+            0
+        ],
+        "@l./adapters/SearchAdapter.java": [
+            0
+        ],
+        "@l./adapters/SlidingQueueAdapter.java": [
+            0
+        ],
+        "@l./adapters/SongsListAdapter.java": [
+            0
+        ],
+        "@l./cast/CastOptionsProvider.java": [
+            0
+        ],
+        "@l./cast/ExpandedControlsActivity.java": [
+            0
+        ],
+        "@l./cast/SimpleSessionManagerListener.java": [
+            0
+        ],
+        "@l./cast/TimberCastHelper.java": [
+            0
+        ],
+        "@l./cast/WebServer.java": [
+            0
+        ],
+        "@l./dataloaders/AlbumLoader.java": [
+            0
+        ],
+        "@l./dataloaders/AlbumSongLoader.java": [
+            0
+        ],
+        "@l./dataloaders/ArtistAlbumLoader.java": [
+            0
+        ],
+        "@l./dataloaders/ArtistLoader.java": [
+            0
+        ],
+        "@l./dataloaders/ArtistSongLoader.java": [
+            0
+        ],
+        "@l./dataloaders/FolderLoader.java": [
+            0
+        ],
+        "@l./dataloaders/LastAddedLoader.java": [
+            0
+        ],
+        "@l./dataloaders/NowPlayingCursor.java": [
+            0
+        ],
+        "@l./dataloaders/PlaylistLoader.java": [
+            0
+        ],
+        "@l./dataloaders/PlaylistSongLoader.java": [
+            0
+        ],
+        "@l./dataloaders/QueueLoader.java": [
+            0
+        ],
+        "@l./dataloaders/SongLoader.java": [
+            0
+        ],
+        "@l./dataloaders/SortedCursor.java": [
+            0
+        ],
+        "@l./dataloaders/TopTracksLoader.java": [
+            0
+        ],
+        "@l./dialogs/AddPlaylistDialog.java": [
+            0
+        ],
+        "@l./dialogs/CreatePlaylistDialog.java": [
+            0
+        ],
+        "@l./dialogs/LastFmLoginDialog.java": [
+            0
+        ],
+        "@l./dialogs/StorageSelectDialog.java": [
+            0
+        ],
+        "@l./fragments/AlbumDetailFragment.java": [
+            0
+        ],
+        "@l./fragments/AlbumFragment.java": [
+            0
+        ],
+        "@l./fragments/ArtistBioFragment.java": [
+            0
+        ],
+        "@l./fragments/ArtistDetailFragment.java": [
+            0
+        ],
+        "@l./fragments/ArtistFragment.java": [
+            0
+        ],
+        "@l./fragments/ArtistMusicFragment.java": [
+            0
+        ],
+        "@l./fragments/FoldersFragment.java": [
+            0
+        ],
+        "@l./fragments/MainFragment.java": [
+            0
+        ],
+        "@l./fragments/PlaylistFragment.java": [
+            0
+        ],
+        "@l./fragments/QueueFragment.java": [
+            0
+        ],
+        "@l./fragments/SettingsFragment.java": [
+            0
+        ],
+        "@l./fragments/SimilarArtistFragment.java": [
+            0
+        ],
+        "@l./fragments/SongsFragment.java": [
+            0
+        ],
+        "@l./helpers/MediaButtonIntentReceiver.java": [
+            0
+        ],
+        "@l./helpers/MusicPlaybackTrack.java": [
+            0
+        ],
+        "@l./lastfmapi/LastFmClient.java": [
+            0
+        ],
+        "@l./lastfmapi/LastFmRestService.java": [
+            0
+        ],
+        "@l./lastfmapi/LastFmUserRestService.java": [
+            0
+        ],
+        "@l./lastfmapi/RestServiceFactory.java": [
+            0
+        ],
+        "@l./lastfmapi/callbacks/AlbumInfoListener.java": [
+            0
+        ],
+        "@l./lastfmapi/callbacks/ArtistInfoListener.java": [
+            0
+        ],
+        "@l./lastfmapi/callbacks/UserListener.java": [
+            0
+        ],
+        "@l./lastfmapi/models/AlbumBio.java": [
+            0
+        ],
+        "@l./lastfmapi/models/AlbumInfo.java": [
+            0
+        ],
+        "@l./lastfmapi/models/AlbumQuery.java": [
+            0
+        ],
+        "@l./lastfmapi/models/AlbumTracks.java": [
+            0
+        ],
+        "@l./lastfmapi/models/ArtistBio.java": [
+            0
+        ],
+        "@l./lastfmapi/models/ArtistInfo.java": [
+            0
+        ],
+        "@l./lastfmapi/models/ArtistQuery.java": [
+            0
+        ],
+        "@l./lastfmapi/models/ArtistTag.java": [
+            0
+        ],
+        "@l./lastfmapi/models/Artwork.java": [
+            0
+        ],
+        "@l./lastfmapi/models/LastfmAlbum.java": [
+            0
+        ],
+        "@l./lastfmapi/models/LastfmArtist.java": [
+            0
+        ],
+        "@l./lastfmapi/models/LastfmUserSession.java": [
+            0
+        ],
+        "@l./lastfmapi/models/ScrobbleInfo.java": [
+            0
+        ],
+        "@l./lastfmapi/models/ScrobbleQuery.java": [
+            0
+        ],
+        "@l./lastfmapi/models/UserLoginInfo.java": [
+            0
+        ],
+        "@l./lastfmapi/models/UserLoginQuery.java": [
+            0
+        ],
+        "@l./listeners/MusicStateListener.java": [
+            0
+        ],
+        "@l./listeners/SimplelTransitionListener.java": [
+            0
+        ],
+        "@l./models/Album.java": [
+            0
+        ],
+        "@l./models/Artist.java": [
+            0
+        ],
+        "@l./models/Playlist.java": [
+            0
+        ],
+        "@l./models/Song.java": [
+            0
+        ],
+        "@l./nowplaying/BaseNowplayingFragment.java": [
+            0
+        ],
+        "@l./nowplaying/Timber1.java": [
+            0
+        ],
+        "@l./nowplaying/Timber2.java": [
+            0
+        ],
+        "@l./nowplaying/Timber3.java": [
+            0
+        ],
+        "@l./nowplaying/Timber4.java": [
+            0
+        ],
+        "@l./nowplaying/Timber5.java": [
+            0
+        ],
+        "@l./nowplaying/Timber6.java": [
+            0
+        ],
+        "@l./permissions/Nammu.java": [
+            0
+        ],
+        "@l./permissions/PermissionCallback.java": [
+            0
+        ],
+        "@l./permissions/PermissionListener.java": [
+            0
+        ],
+        "@l./permissions/PermissionRequest.java": [
+            0
+        ],
+        "@l./provider/MusicDB.java": [
+            0
+        ],
+        "@l./provider/MusicPlaybackState.java": [
+            0
+        ],
+        "@l./provider/RecentStore.java": [
+            0
+        ],
+        "@l./provider/SearchHistory.java": [
+            0
+        ],
+        "@l./provider/SongPlayCount.java": [
+            0
+        ],
+        "@l./slidinguppanel/SlidingUpPanelLayout.java": [
+            0
+        ],
+        "@l./slidinguppanel/ViewDragHelper.java": [
+            0
+        ],
+        "@l./subfragments/ArtistTagFragment.java": [
+            0
+        ],
+        "@l./subfragments/LyricsFragment.java": [
+            0
+        ],
+        "@l./subfragments/PlaylistPagerFragment.java": [
+            0
+        ],
+        "@l./subfragments/QuickControlsFragment.java": [
+            0
+        ],
+        "@l./subfragments/StyleSelectorFragment.java": [
+            0
+        ],
+        "@l./subfragments/SubStyleSelectorFragment.java": [
+            0
+        ],
+        "@l./timely/TimelyView.java": [
+            0
+        ],
+        "@l./timely/animation/TimelyEvaluator.java": [
+            0
+        ],
+        "@l./timely/model/NumberUtils.java": [
+            0
+        ],
+        "@l./timely/model/core/Figure.java": [
+            0
+        ],
+        "@l./timely/model/number/Eight.java": [
+            0
+        ],
+        "@l./timely/model/number/Five.java": [
+            0
+        ],
+        "@l./timely/model/number/Four.java": [
+            0
+        ],
+        "@l./timely/model/number/Nine.java": [
+            0
+        ],
+        "@l./timely/model/number/Null.java": [
+            0
+        ],
+        "@l./timely/model/number/One.java": [
+            0
+        ],
+        "@l./timely/model/number/Seven.java": [
+            0
+        ],
+        "@l./timely/model/number/Six.java": [
+            0
+        ],
+        "@l./timely/model/number/Three.java": [
+            0
+        ],
+        "@l./timely/model/number/Two.java": [
+            0
+        ],
+        "@l./timely/model/number/Zero.java": [
+            0
+        ],
+        "@l./transition/PlayTransition.java": [
+            0
+        ],
+        "@l./utils/ATEUtils.java": [
+            0
+        ],
+        "@l./utils/Constants.java": [
+            0
+        ],
+        "@l./utils/FabAnimationUtils.java": [
+            0
+        ],
+        "@l./utils/Helpers.java": [
+            0
+        ],
+        "@l./utils/ImageUtils.java": [
+            0
+        ],
+        "@l./utils/LyricsExtractor.java": [
+            0
+        ],
+        "@l./utils/LyricsLoader.java": [
+            0
+        ],
+        "@l./utils/NavigationUtils.java": [
+            0
+        ],
+        "@l./utils/PreferencesUtility.java": [
+            0
+        ],
+        "@l./utils/SlideTrackSwitcher.java": [
+            0
+        ],
+        "@l./utils/SortOrder.java": [
+            0
+        ],
+        "@l./utils/TimberUtils.java": [
+            0
+        ],
+        "@l./widgets/BaseRecyclerView.java": [
+            0
+        ],
+        "@l./widgets/BubbleTextGetter.java": [
+            0
+        ],
+        "@l./widgets/CircleImageView.java": [
+            0
+        ],
+        "@l./widgets/CircularSeekBar.java": [
+            0
+        ],
+        "@l./widgets/DividerItemDecoration.java": [
+            0
+        ],
+        "@l./widgets/DragSortRecycler.java": [
+            0
+        ],
+        "@l./widgets/FastScroller.java": [
+            0
+        ],
+        "@l./widgets/MultiViewPager.java": [
+            0
+        ],
+        "@l./widgets/MusicVisualizer.java": [
+            0
+        ],
+        "@l./widgets/PlayPauseButton.java": [
+            0
+        ],
+        "@l./widgets/PlayPauseDrawable.java": [
+            0
+        ],
+        "@l./widgets/PopupImageView.java": [
+            0
+        ],
+        "@l./widgets/SquareImageView.java": [
+            0
+        ],
+        "@l./widgets/TextDrawable.java": [
+            0
+        ],
+        "@l./widgets/ThemedPreferenceCategory.java": [
+            0
+        ],
+        "@l./widgets/desktop/BaseWidget.java": [
+            0
+        ],
+        "@l./widgets/desktop/SmallWidget.java": [
+            0
+        ],
+        "@l./widgets/desktop/StandardWidget.java": [
+            0
+        ],
+        "@l./widgets/desktop/WhiteWidget.java": [
+            0
+        ]
+    },
+    "tags": [
+        "arch"
+    ]
+}
