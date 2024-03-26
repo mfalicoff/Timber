@@ -12,3 +12,5 @@ app/manifest-merger-release-report.txt
 
 secret.xml
 google-services.json
+
+tp3/infra/.vagrant/
